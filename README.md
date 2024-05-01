@@ -20,7 +20,7 @@
 </p>
 
 # JUnit Test Example
--> Unit Tests example Using `JUnit`
+> Unit Tests example Using `JUnit`
 
     @Test
     fun isPalindrome_inputString_level_expectedTrue() {
@@ -31,10 +31,27 @@
         // Assert - compare to Test
         assertEquals(true, result)
     }
--> We use ` Parameterized Test ` for multiple test cases!
+> We use ` Parameterized Test ` for multiple test cases!
  - Define a class for Parameterized Tests.
  - Define class `Parameters` for your `input string`, and `Expected Value`
  - See the ParameterizedExample class for better understanding!
+
+ > Here we have completed the part of JUnit tests, Now let's talk about `Instrumentation Tests`.
+
+# Instrumentation Tests Example
+How to write Instrumentation tests that do not interact with UI. Classes such as Android Context, Asset Manager do not need UI to work with. To write test cases for these classes we need to write instrumentation test. These test cases follow the same pattern as JUnit.
+** There are two types of Instrumentation Tests are available -**
+ - Non UI (Similar to Unit Tests)
+ - UI (Expresso)
+
+ > Now Let's Practice some problems related to Local unit test.
+# Problem statements 
+ - Validate password
+   - Should not be Empty
+   - Lenth should be between 6 to 15
+   - OtherWise return valid password
+ - String reversal.
+
 
 
 
