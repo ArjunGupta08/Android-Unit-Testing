@@ -52,6 +52,11 @@ How to write Instrumentation tests that do not interact with UI. Classes such as
    - OtherWise return valid password
  - String reversal.
 
+# Espresso - Tests for UI interactions
+ - Learn how to write unit test cases in android that checks your UI logic. **Espresso** helps to write automated test cases for Android. Espresso tests UI interaction, state assertions and expectations in Android. 
 
+ - Learn how to use different matchers to access views and interact with them. Learn about ViewInteractions and ViewActions class. Learn how to use onView, withId, withText, perform methods to interact with Android Views. Learn how to use Espresso Intent Library to write test cases for Intent based scenarios. For example - Intent Chooser for ACTION_SEND.
 
+ - Learn how to use activityScenarioRule to open activity to test UI interactions. These test cases follow the same pattern as JUnit. Learn how to write these Instrumentation tests in Android with simple example. 
+> CheckOut this repository -> [Quote MvvM](https://github.com/ArjunGupta08/Quotes-MvvM) where i've implemented the Espresso Test.
 
